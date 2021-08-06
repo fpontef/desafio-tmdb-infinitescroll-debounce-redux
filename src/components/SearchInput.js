@@ -13,9 +13,9 @@ const SearchInput = () => {
   useEffect(() => {
     // Trick to allow search from every screen (including movideDetails)
     if (keyword) {
-      // history.push('/');
+      history.push('/');
       // fix to work with GHPages:
-      history.push(`${process.env.PUBLIC_URL}/`);
+      // history.push(`${process.env.PUBLIC_URL}/`);
     }
   }, [history, keyword]);
 

@@ -6,21 +6,14 @@ import Header from './components/Header';
 import Dashboard from './pages/Dashboard';
 
 // Possible better fix for GHPages and keep BrowserRouter instead of HashRouter:
-// <Router basename={process.env.PUBLIC_URL}>
+//     <Router basename={process.env.PUBLIC_URL}>
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
-        <Route
-          path={`${process.env.PUBLIC_URL}/`}
-          exact
-          component={Dashboard}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL}/detail/:id`}
-          component={MovieDetails}
-        />
+        <Route path='/' exact component={Dashboard} />
+        <Route path='/detail/:id' component={MovieDetails} />
       </Switch>
       <Footer />
     </Router>
