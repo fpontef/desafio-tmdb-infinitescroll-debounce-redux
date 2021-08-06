@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/desafio-tmdb-infinitescroll-debounce-redux/static/css/main.6ab1ddf3.chunk.css",
-    "main.js": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/main.74d96a3e.chunk.js",
-    "main.js.map": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/main.74d96a3e.chunk.js.map",
+    "main.js": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/main.0de32d2d.chunk.js",
+    "main.js.map": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/main.0de32d2d.chunk.js.map",
     "runtime-main.js": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/runtime-main.aa330cd9.js",
     "runtime-main.js.map": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/runtime-main.aa330cd9.js.map",
     "static/js/2.02974410.chunk.js": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/2.02974410.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.aa330cd9.js",
     "static/js/2.02974410.chunk.js",
     "static/css/main.6ab1ddf3.chunk.css",
-    "static/js/main.74d96a3e.chunk.js"
+    "static/js/main.0de32d2d.chunk.js"
   ]
 }
