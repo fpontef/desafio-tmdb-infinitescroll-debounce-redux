@@ -10,8 +10,15 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route path='/' exact component={Dashboard} />
-        <Route path='/detail/:id' component={MovieDetails} />
+        <Route
+          path={`${process.env.PUBLIC_URL}/`}
+          exact
+          component={Dashboard}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL}/detail/:id`}
+          component={MovieDetails}
+        />
       </Switch>
       <Footer />
     </Router>
