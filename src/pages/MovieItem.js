@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 const MovieItem = ({ poster_path, title, id }, itemFwRef) => {
   return (
     <div className='movielist__item' ref={itemFwRef}>
-      <Link to={`/detail/${id}`}>
+      {/* <Link to={`/detail/${id}`}> */}
+      <Link to={`${process.env.PUBLIC_URL}/detail/${id}`}>
         {poster_path !== null ? (
           <img
             className='movielist__poster'

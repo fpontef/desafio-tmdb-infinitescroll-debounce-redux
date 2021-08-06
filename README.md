@@ -4,6 +4,11 @@
 > Não fui um candidato, mas achei interessante não ter nada do tipo, então resolvi
 > adotar como um projeto para treinar que não consuma tanto tempo.
 
+### Link:
+
+Versão online disponibilizada via GHPages:
+https://fpontef.github.io/desafio-tmdb-infinitescroll-debounce-redux/
+
 ### Aspectos do projeto:
 
 - React, Redux/Thunk e Hooks
