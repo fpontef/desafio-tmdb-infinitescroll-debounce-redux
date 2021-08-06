@@ -5,6 +5,8 @@ import MovieDetails from './pages/MovieDetails';
 import Header from './components/Header';
 import Dashboard from './pages/Dashboard';
 
+// Possible better fix for GHPages and keep BrowserRouter instead of HashRouter:
+// <Router basename={process.env.PUBLIC_URL}>
 function App() {
   return (
     <Router>
