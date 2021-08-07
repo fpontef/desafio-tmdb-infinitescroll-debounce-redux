@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/desafio-tmdb-infinitescroll-debounce-redux/static/css/main.6ab1ddf3.chunk.css",
-    "main.js": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/main.0de32d2d.chunk.js",
-    "main.js.map": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/main.0de32d2d.chunk.js.map",
+    "main.css": "/desafio-tmdb-infinitescroll-debounce-redux/static/css/main.06d80e29.chunk.css",
+    "main.js": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/main.95eb8981.chunk.js",
+    "main.js.map": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/main.95eb8981.chunk.js.map",
     "runtime-main.js": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/runtime-main.aa330cd9.js",
     "runtime-main.js.map": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/runtime-main.aa330cd9.js.map",
-    "static/js/2.02974410.chunk.js": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/2.02974410.chunk.js",
-    "static/js/2.02974410.chunk.js.map": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/2.02974410.chunk.js.map",
+    "static/js/2.7a5a11a2.chunk.js": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/2.7a5a11a2.chunk.js",
+    "static/js/2.7a5a11a2.chunk.js.map": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/2.7a5a11a2.chunk.js.map",
     "index.html": "/desafio-tmdb-infinitescroll-debounce-redux/index.html",
-    "static/css/main.6ab1ddf3.chunk.css.map": "/desafio-tmdb-infinitescroll-debounce-redux/static/css/main.6ab1ddf3.chunk.css.map",
-    "static/js/2.02974410.chunk.js.LICENSE.txt": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/2.02974410.chunk.js.LICENSE.txt"
+    "static/css/main.06d80e29.chunk.css.map": "/desafio-tmdb-infinitescroll-debounce-redux/static/css/main.06d80e29.chunk.css.map",
+    "static/js/2.7a5a11a2.chunk.js.LICENSE.txt": "/desafio-tmdb-infinitescroll-debounce-redux/static/js/2.7a5a11a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.aa330cd9.js",
-    "static/js/2.02974410.chunk.js",
-    "static/css/main.6ab1ddf3.chunk.css",
-    "static/js/main.0de32d2d.chunk.js"
+    "static/js/2.7a5a11a2.chunk.js",
+    "static/css/main.06d80e29.chunk.css",
+    "static/js/main.95eb8981.chunk.js"
   ]
 }
