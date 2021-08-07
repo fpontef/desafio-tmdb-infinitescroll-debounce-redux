@@ -21,13 +21,12 @@ const MovieDetails = () => {
   }, [dispatch, movieId]);
 
   return (
-    <>
+    <div className='main'>
       <button type='button' onClick={() => history.goBack()}>
         {'<< '} Voltar...
       </button>
-      {loading ? (
-        <Loading />
-      ) : error ? (
+      {loading && <Loading />}
+      {error ? (
         <Error error={error} />
       ) : (
         movieDetails && (
@@ -77,7 +76,7 @@ const MovieDetails = () => {
           </div>
         )
       )}
-    </>
+    </div>
   );
 };
 

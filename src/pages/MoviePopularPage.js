@@ -24,8 +24,7 @@ const MoviePopularPage = () => {
   }, [dispatch, nextPageNumber]);
 
   return (
-    <>
-      {loading && <Loading />}
+    <div className='main'>
       {error ? (
         <Error error={error} />
       ) : movies.length ? (
@@ -33,7 +32,8 @@ const MoviePopularPage = () => {
       ) : (
         <div className='error__text'>Ops, não tem nada aqui.</div>
       )}
-    </>
+      {loading && <Loading />}
+    </div>
   );
 };
 

@@ -9,14 +9,16 @@ import Dashboard from './pages/Dashboard';
 //     <Router basename={process.env.PUBLIC_URL}>
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <Header />
-      <Switch>
-        <Route path='/' exact component={Dashboard} />
-        <Route path='/detail/:id' component={MovieDetails} />
-      </Switch>
-      <Footer />
-    </Router>
+    <div className='container'>
+      <Router basename={process.env.PUBLIC_URL}>
+        <Header />
+        <Switch>
+          <Route path='/' exact component={Dashboard} />
+          <Route path='/detail/:id' component={MovieDetails} />
+        </Switch>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
